@@ -1,0 +1,126 @@
+ body {
+          background-color: green;  
+        }
+#page-wrap {
+  width:960px;
+  margin: 0 auto;
+}
+
+/*Uses a margin rather than position to position logo*/
+#logo {
+  width:107px;
+  height:88px;
+  position:relative;
+  left:50px;
+  top:80px;
+  /*
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-left: 50px;
+  */
+  background: white;
+  z-index:1;
+}
+#nav {
+  width:810px;
+  line-height:3em;
+  font-size: 1.2em;
+  position:relative;
+  left:150px;
+  font: 15px arial, helvetica, sans-serif;
+  z-index:0;
+}
+
+nav a {
+    padding: 1em .6em
+}
+
+nav a:hover{
+  color: gainsboro;
+  text-decoration: none;
+}
+/* unvisited link */
+a:link {
+    color: black;
+    text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+    color: goldenrod;
+    text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+    color: gainsboro;
+    text-decoration: none;
+}
+
+/* selected link */
+a:active {
+    color: 578DB7;
+    text-decoration: none;
+}
+
+#banner {
+  z-index: -1;
+}
+/*
+#content {
+  width: 940px;
+  magin : auto;
+}
+/*Make this into a class rather than div for reuse*/
+/*.block*/
+.block-half {
+   border: 5px;
+   width: 960px;
+   height: 188px;
+   position: relative;
+   font: 15px arial, helvetica, sans-serif;
+}
+
+.block {
+  border: 5px;
+  width: 960px;
+  height: 375px;
+  position: relative;
+  font: 15px arial, helvetica, sans-serif;
+}
+/*make classes for text and image alignment*/
+.left {
+    text-align:left:;
+    float: left;
+    width: 455px;
+    padding: 10px;
+}
+.right {
+    text-align:right;
+    float: right;
+    width: 455px;
+    padding: 10px;
+}
+.center {
+  text-align: center;
+  width: 960px;
+  padding: 10px;
+}
+.purple {
+  color: purple;
+}
+#footer {
+  width:960px;
+  height:25px;
+  font: 15px arial, helvetica, sans-serif;
+  text-align:left;
+}
+
+ul { 
+	list-style: none; 
+}
+
+h1,h2,h3,h4,h5,h6 {
+                color: goldenrod;
+                font-family: Charcoal, sans-serif;
+}
